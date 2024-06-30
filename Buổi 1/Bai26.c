@@ -13,7 +13,7 @@ int main()
     printf("\n");
     if (a, b, c > 0 && a + b > c && a + c > b && c + b > a)
     {
-        if(a == b && a == c && b == c)
+        if (a == b && a == c && b == c)
             printf("Tam giac deu");
         else if (a == b || a == c || b == c)
             printf("Tam giac can");
@@ -27,4 +27,3 @@ int main()
     printf("\n");
     return 0;
 }
-

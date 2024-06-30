@@ -12,9 +12,9 @@ int main()
     printf("b = ");
     scanf("%hu", &b);
     printf("\n");
-    if (a*2 >= b)
+    if (a * 2 >= b)
     {
-        if (n % 2 ==0)
+        if (n % 2 == 0)
             printf("%llu", n / 2 * b);
         else
             printf("%llu", n / 2 * b + a);
@@ -26,7 +26,3 @@ int main()
     printf("\n");
     return 0;
 }
-
-
-
-

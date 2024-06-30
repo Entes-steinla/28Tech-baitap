@@ -9,7 +9,7 @@ int main()
     scanf("%u", &b);
     printf("c = ");
     scanf("%u", &c);
-    S = a*(b+c) + b*(a+c);
+    S = a * (b + c) + b * (a + c);
     printf("\ngia tri cua bieu thuc S = a*(b+c) + b*(a+c) la: S = %u\n", S);
     return 0;
 }

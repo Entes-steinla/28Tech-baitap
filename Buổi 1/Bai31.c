@@ -15,18 +15,17 @@ int main()
     printf("d = ");
     scanf("%f", &d);
 
-    dtk = ((a + b) + 2*c + 3*d) / (2 + 5);
+    dtk = ((a + b) + 2 * c + 3 * d) / (2 + 5);
 
     printf("\n");
-    if(dtk < 5)
+    if (dtk < 5)
         printf("YEU");
-    else if(dtk < 6.5)
+    else if (dtk < 6.5)
         printf("TRUNG BINH");
-    else if(dtk < 8)
+    else if (dtk < 8)
         printf("KHA");
-    else if(dtk <= 10)
+    else if (dtk <= 10)
         printf("GIOI");
     printf("\n");
     return 0;
 }
-

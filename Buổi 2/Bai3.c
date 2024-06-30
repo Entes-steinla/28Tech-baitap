@@ -12,14 +12,12 @@ int main()
     scanf("%u", &a);
     printf("\n");
     if (m > a && n < a)
-        printf("%u", m/a + 1);
+        printf("%u", m / a + 1);
     if (n > a && m < a)
-        printf("%u", n/a + 1);
+        printf("%u", n / a + 1);
     if (m > a && n > a)
-        printf("%u", (m/a + 1)*2);
+        printf("%u", (m / a + 1) * 2);
     if (m < a && n < a)
         printf("1");
     return 0;
 }
-
-

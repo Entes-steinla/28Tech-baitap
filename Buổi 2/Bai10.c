@@ -11,12 +11,10 @@ int main()
     printf("d3 = ");
     scanf("%u", &d3);
     printf("\n");
-    if (d1 + d2 + d3 >= d1*2 + d2*2)
-        printf("%u", d1*2 + d2*2);
+    if (d1 + d2 + d3 >= d1 * 2 + d2 * 2)
+        printf("%u", d1 * 2 + d2 * 2);
     else
         printf("%u", d1 + d2 + d3);
     printf("\n");
     return 0;
 }
-
-

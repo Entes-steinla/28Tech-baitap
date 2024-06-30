@@ -9,9 +9,8 @@ int main()
     printf("N = ");
     scanf("%hi", &N);
     if ((M * N) % 2 == 0)
-        printf("%d", (M*N)/2);
+        printf("%d", (M * N) / 2);
     else
-        printf("%d", (M*N-1)/2);
+        printf("%d", (M * N - 1) / 2);
     return 0;
 }
-

@@ -9,9 +9,8 @@ int main()
     printf("m = ");
     scanf("%hu", &m);
     printf("\n");
-    int min = ceil(n/2);
-    printf("%.0f", ceil(1.0*min/m)*m);
+    int min = ceil(n / 2);
+    printf("%.0f", ceil(1.0 * min / m) * m);
     printf("\n");
     return 0;
 }
-

@@ -11,13 +11,10 @@ int main()
     printf("w = ");
     scanf("%u", &w);
     printf("\n");
-    if ( (((1+w)*w)/2)*k > n)
-        printf("%u", (((1+w)*w)/2)*k - n);
+    if ((((1 + w) * w) / 2) * k > n)
+        printf("%u", (((1 + w) * w) / 2) * k - n);
     else
         printf("0");
     printf("\n");
     return 0;
 }
-
-
-

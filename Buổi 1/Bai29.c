@@ -10,11 +10,10 @@ int main()
     int dau, cuoi;
     cuoi = b;
     dau = a;
-    if(a - dau != 0)
+    if (a - dau != 0)
         dau = dau + 1;
     printf("\n");
-    printf("so luong so nguyen trong doan [%.2f; %.2f] la: %d", a, b, cuoi-dau+1);
+    printf("so luong so nguyen trong doan [%.2f; %.2f] la: %d", a, b, cuoi - dau + 1);
     printf("\n");
     return 0;
 }
-

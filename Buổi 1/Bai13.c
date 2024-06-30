@@ -8,8 +8,7 @@ int main()
     scanf("%u", &a);
     printf("b = ");
     scanf("%u", &b);
-    printf("\nSo chia het cho b lon nhat ma khong vuot qua a la: %d", a/b * b);
+    printf("\nSo chia het cho b lon nhat ma khong vuot qua a la: %d", a / b * b);
     printf("\n");
     return 0;
 }
-
